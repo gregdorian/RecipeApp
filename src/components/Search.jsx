@@ -13,7 +13,6 @@ const { setSearchTerm, fetchRandomMeal } = useGlobalContext()
     e.preventDefault()
     if (text) {
       setSearchTerm(text)
-      setText('')
 
     }
   }
